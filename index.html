@@ -1,543 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiehann C. Homeres | Portfolio</title>
 
-    <title>Jiehann Homeres | Portfolio</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+        <linearGradient id="ig-grad" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0" stop-color="#FEDA75"/>
+            <stop offset="0.3" stop-color="#FA7E1E"/>
+            <stop offset="0.55" stop-color="#D62976"/>
+            <stop offset="0.8" stop-color="#962FBF"/>
+            <stop offset="1" stop-color="#4F5BD5"/>
+        </linearGradient>
+    </defs>
 
-    <header>
+    <symbol id="i-github" viewBox="0 0 24 24">
+        <path fill="#181717" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </symbol>
 
-        <nav class="navbar">
+    <symbol id="i-facebook" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="12" fill="#1877F2"/>
+        <path fill="#fff" d="M16.671 15.469 17.203 12h-3.328V9.749c0-.949.465-1.875 1.956-1.875h1.513V4.922s-1.373-.234-2.686-.234c-2.741 0-4.533 1.662-4.533 4.669V12H7.078v3.469h3.047v8.385a12.1 12.1 0 0 0 3.75 0V15.469z"/>
+    </symbol>
 
-            <div class="logo">
-                Jiehann<span>.</span>
+    <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect x="1" y="1" width="22" height="22" rx="6" fill="url(#ig-grad)"/>
+        <rect x="5" y="5" width="14" height="14" rx="4" fill="none" stroke="#fff" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="3.3" fill="none" stroke="#fff" stroke-width="1.8"/>
+        <circle cx="16.4" cy="7.6" r="1.1" fill="#fff"/>
+    </symbol>
+
+    <symbol id="i-gmail" viewBox="0 0 24 24">
+        <path fill="#EA4335" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+    </symbol>
+</svg>
+
+<!-- NAVIGATION -->
+<header>
+    <nav class="navbar">
+        <div class="logo">JH<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <div class="hero-content">
+
+        <div class="hero-text">
+            <span class="intro">HELLO, I'M</span>
+            <h1>Jiehann <span>Homeres</span></h1>
+            <p>
+                I am a BSIT student at Visayas State University Alangalang,
+                passionate about technology, web development, and creating
+                practical digital solutions.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="primary-btn">Explore My Work →</a>
+                <a href="#contact" class="secondary-btn">Contact Me</a>
             </div>
 
-            <ul class="nav-links">
-
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-
-                <li>
-                    <a href="#about">About</a>
-                </li>
-
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-
-    <!-- HOME -->
-
-    <section id="home" class="hero">
-
-        <div class="hero-content">
-
-            <div class="hero-text">
-
-                <span class="intro">
-                    HELLO, I'M
-                </span>
-
-                <h1>
-                    Jiehann
-                    <span>Homeres</span>
-                </h1>
-
-                <h2>
-                    BSIT Student & Future IT Professional
-                </h2>
-
-                <p>
-                    I am an Information Technology student
-                    who enjoys learning about technology,
-                    programming, networking, and creating
-                    useful digital solutions.
-                </p>
-
-                <div class="buttons">
-
-                    <a href="#projects" class="primary-btn">
-                        Explore My Work →
-                    </a>
-
-                    <a href="#contact" class="secondary-btn">
-                        Contact Me
-                    </a>
-
-                </div>
-
-                <div class="socials">
-
-                    <a href="#">GitHub</a>
-
-                    <a href="#">Facebook</a>
-
-                    <a href="#">LinkedIn</a>
-
-                </div>
-
+            <div class="socials">
+                <a href="https://github.com/jiehannhomeres20-lgtm" target="_blank" rel="noopener">
+                    <span class="icon-badge"><svg width="20" height="20"><use href="#i-github"/></svg></span>GitHub
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61586454728612" target="_blank" rel="noopener">
+                    <span class="icon-badge"><svg width="20" height="20"><use href="#i-facebook"/></svg></span>Facebook
+                </a>
+                <a href="https://www.instagram.com/strjin_" target="_blank" rel="noopener">
+                    <span class="icon-badge"><svg width="20" height="20"><use href="#i-instagram"/></svg></span>Instagram
+                </a>
+                <a href="mailto:jiehannhomeres20@gmail.com">
+                    <span class="icon-badge"><svg width="20" height="20"><use href="#i-gmail"/></svg></span>Gmail
+                </a>
             </div>
-
-
-            <div class="hero-photo">
-
-                <div class="photo-container">
-
-                    <img src="profile.jpg"
-                         alt="Jiehann Homeres">
-
-                </div>
-
-                <div class="floating-card first">
-                    💻 IT Student
-                </div>
-
-                <div class="floating-card second">
-                    🚀 Always Learning
-                </div>
-
-            </div>
-
         </div>
 
-    </section>
+        <div class="hero-photo">
+            <div class="photo-container">
+                <img src="profile.jpg" alt="Jiehann C. Homeres"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="photo-fallback">JH</div>
+            </div>
+        </div>
 
+    </div>
+</section>
 
-    <!-- ABOUT -->
-
-    <section id="about" class="section about">
-
+<!-- ABOUT -->
+<section id="about" class="section about">
+    <div class="section-inner">
         <div class="section-title">
-
             <span>GET TO KNOW ME</span>
-
-            <h2>
-                About <strong>Me</strong>
-            </h2>
-
+            <h2>About <strong>Me</strong></h2>
         </div>
-
 
         <div class="about-content">
-
             <div class="about-text">
-
                 <p>
-                    I am Jiehann Homeres, a Bachelor of Science
-                    in Information Technology student interested
-                    in technology and software development.
+                    I am Jiehann C. Homeres, a third-year BSIT student at Visayas State
+                    University Alangalang.
                 </p>
-
                 <p>
-                    I am continuously improving my skills in
-                    programming, web development, databases,
-                    networking, and system development.
+                    I am improving my skills in web development, databases,
+                    networking, and system development through school projects
+                    and hands-on activities.
                 </p>
-
                 <p>
-                    Through school projects and hands-on
-                    activities, I am learning how technology
-                    can be used to solve real-world problems.
+                    My capstone is <strong>ManokEye</strong>, a computer
+                    vision-based monitoring and alert system that watches layer
+                    hens through multiple camera views to catch early behavioral
+                    signs of illness, such as reduced eating and drinking, before
+                    the problem spreads.
                 </p>
-
-                <a href="#contact" class="primary-btn">
-                    Let's Connect →
-                </a>
-
+                <a href="#contact" class="primary-btn">Let's Connect →</a>
             </div>
-
 
             <div class="info">
-
                 <div class="info-box">
-
-                    <span>👤</span>
-
-                    <div>
-                        <small>Name</small>
-                        <p>Jiehann Homeres</p>
-                    </div>
-
+                    <span class="icon">👤</span>
+                    <div><small>Name</small><p>Jiehann C. Homeres</p></div>
                 </div>
-
-
                 <div class="info-box">
-
-                    <span>🎓</span>
-
-                    <div>
-                        <small>Course</small>
-                        <p>BS Information Technology</p>
-                    </div>
-
+                    <span class="icon">🎓</span>
+                    <div><small>Course &amp; Year</small><p>BS Information Technology, 3B</p></div>
                 </div>
-
-
                 <div class="info-box">
-
-                    <span>🏫</span>
-
-                    <div>
-                        <small>School</small>
-                        <p>Visayas State University Alangalang</p>
-                    </div>
-
+                    <span class="icon">🏫</span>
+                    <div><small>School</small><p>Visayas State University Alangalang</p></div>
                 </div>
-
-
                 <div class="info-box">
-
-                    <span>📍</span>
-
-                    <div>
-                        <small>Location</small>
-                        <p>Brgy. San Isidro Sta. Fe, Leyte</p>
-                    </div>
-
+                    <span class="icon">📍</span>
+                    <div><small>Location</small><p>Brgy. San Isidro Sta. Fe, Leyte.</p></div>
                 </div>
-
             </div>
-
         </div>
+    </div>
+</section>
 
-    </section>
-
-
-    <!-- SKILLS -->
-
-    <section id="skills" class="section skills">
-
+<!-- SKILLS -->
+<section id="skills" class="section skills">
+    <div class="section-inner">
         <div class="section-title">
-
             <span>WHAT I CAN DO</span>
-
-            <h2>
-                My <strong>Skills</strong>
-            </h2>
-
+            <h2>My <strong>Skills</strong></h2>
         </div>
-
 
         <div class="skills-grid">
-
             <div class="skill-card">
-
-                <span>01</span>
-
+                <span class="num">01</span>
                 <h3>Web Development</h3>
-
-                <p>
-                    Creating basic websites using
-                    HTML, CSS, and JavaScript.
-                </p>
-
+                <p>Creating basic websites using HTML, CSS, and JavaScript.</p>
             </div>
-
-
             <div class="skill-card">
-
-                <span>02</span>
-
-                <h3>Programming</h3>
-
-                <p>
-                    Developing applications and practicing
-                    programming logic.
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <span>03</span>
-
+                <span class="num">02</span>
                 <h3>Database Management</h3>
-
-                <p>
-                    Creating tables and working with
-                    database operations.
-                </p>
-
+                <p>Creating tables and working with basic database operations.</p>
             </div>
-
-
             <div class="skill-card">
-
-                <span>04</span>
-
+                <span class="num">03</span>
                 <h3>Networking</h3>
-
-                <p>
-                    Learning network design, devices,
-                    connections, and basic configuration.
-                </p>
-
+                <p>Learning network devices, connections, and basic configuration.</p>
             </div>
-
-
             <div class="skill-card">
-
-                <span>05</span>
-
-                <h3>Git & GitHub</h3>
-
-                <p>
-                    Managing projects and uploading
-                    code using Git and GitHub.
-                </p>
-
+                <span class="num">04</span>
+                <h3>Git &amp; GitHub</h3>
+                <p>Currently learning how to manage projects and upload code using Git and GitHub.</p>
             </div>
-
-
             <div class="skill-card">
-
-                <span>06</span>
-
+                <span class="num">05</span>
                 <h3>Problem Solving</h3>
-
-                <p>
-                    Analyzing problems and developing
-                    practical technology-based solutions.
-                </p>
-
+                <p>Analyzing problems and developing practical solutions.</p>
             </div>
-
         </div>
+    </div>
+</section>
 
-    </section>
-
-
-    <!-- PROJECTS -->
-
-    <section id="projects" class="section projects">
-
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+    <div class="section-inner">
         <div class="section-title">
-
             <span>MY WORK</span>
-
-            <h2>
-                My <strong>Projects</strong>
-            </h2>
-
+            <h2>My <strong>Projects</strong></h2>
         </div>
-
 
         <div class="projects-grid">
-
-
             <div class="project-card">
-
-                <div class="project-number">
-                    01
-                </div>
-
-                <h3>
-                    Poultry Management System
-                </h3>
-
+                <div class="project-number">01</div>
+                <h3>ManokEye (Capstone)</h3>
                 <p>
-                    A proposed information system for
-                    organizing poultry operations,
-                    records, resources, and monitoring.
+                    A computer vision-based multi-view monitoring and alert system
+                    for early behavioral signs of illness in layer hens. It checks
+                    eating and drinking behavior through cameras and gives results,
+                    recommendations, and alerts to farmers in Leyte.
                 </p>
-
                 <div class="tags">
-                    <span>Python</span>
-                    <span>PostgreSQL</span>
+                    <span>Computer Vision</span>
+                    <span>Multi-Camera</span>
+                    <span>Web App</span>
                 </div>
-
             </div>
 
-
             <div class="project-card">
-
-                <div class="project-number">
-                    02
-                </div>
-
-                <h3>
-                    Student Registration System
-                </h3>
-
+                <div class="project-number">02</div>
+                <h3>Personal Portfolio</h3>
                 <p>
-                    A simple application for managing
-                    student information and registration
-                    records.
+                    A personal website that presents my background, skills,
+                    projects, and educational journey.
                 </p>
-
-                <div class="tags">
-                    <span>Python</span>
-                    <span>SQLite</span>
-                </div>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-number">
-                    03
-                </div>
-
-                <h3>
-                    Personal Portfolio
-                </h3>
-
-                <p>
-                    A personal website that presents
-                    my background, skills, projects,
-                    and educational journey.
-                </p>
-
                 <div class="tags">
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
                 </div>
-
             </div>
-
-
         </div>
+    </div>
+</section>
 
-    </section>
-
-
-    <!-- EDUCATION -->
-
-    <section id="education" class="section education">
-
+<!-- EDUCATION -->
+<section id="education" class="section education">
+    <div class="section-inner">
         <div class="section-title">
-
             <span>MY JOURNEY</span>
-
-            <h2>
-                My <strong>Education</strong>
-            </h2>
-
+            <h2>My <strong>Education</strong></h2>
         </div>
-
 
         <div class="education-card">
-
-            <div class="education-icon">
-                🎓
-            </div>
-
+            <div class="education-icon">🎓</div>
             <div>
-
-                <small>
-                    Bachelor of Science
-                </small>
-
-                <h3>
-                    Information Technology
-                </h3>
-
-                <p>
-                    Visayas State University Alangalang
-                </p>
-
-                <p>
-                    Brgy. San Isidro Sta. Fe, Leyte
-                </p>
-
+                <small>Bachelor of Science</small>
+                <h3>Information Technology</h3>
+                <p>Visayas State University Alangalang</p>
+                <p>Department of Information Technology &bull; 3rd Year, Section 3B</p>
+                <p>Brgy. San Isidro, Sta. Fe, Leyte</p>
             </div>
-
         </div>
+    </div>
+</section>
 
-    </section>
-
-
-    <!-- CONTACT -->
-
-    <section id="contact" class="section contact">
-
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+    <div class="section-inner">
         <div class="contact-content">
-
             <div>
-
-                <span>
-                    LET'S CONNECT
-                </span>
-
-                <h2>
-                    Let's create something
-                    <strong>meaningful.</strong>
-                </h2>
-
-                <p>
-                    You can reach me through my social
-                    media accounts or email.
-                </p>
-
+                <span>LET'S CONNECT</span>
+                <h2>Let's create something <strong>meaningful.</strong></h2>
+                <p>You can reach me through my social media accounts or email.</p>
             </div>
-
 
             <div class="contact-info">
+    <p>
+        <span class="icon-badge"><svg><use href="#i-gmail"/></svg></span>
+        <a href="mailto:jiehannhomeres20@gmail.com">jiehannhomeres20@gmail.com</a>
+    </p>
+    <p>
+        <span class="icon-badge"><svg><use href="#i-github"/></svg></span>
+        <a href="https://github.com/jiehannhomeres20-lgtm" target="_blank" rel="noopener">jiehannhomeres20-lgtm</a>
+    </p>
+    <p>
+        <span class="icon-badge"><svg><use href="#i-facebook"/></svg></span>
+        <a href="https://www.facebook.com/profile.php?id=61586454728612" target="_blank" rel="noopener">Jiehann Estopin</a>
+    </p>
+    <p>
+        <span class="icon-badge"><svg><use href="#i-instagram"/></svg></span>
+        <a href="https://www.instagram.com/strjin_" target="_blank" rel="noopener">@strjin_</a>
+    </p>
+    
 
-                <p>📧 Your Email Address</p>
+    </div>
+</section>
 
-                <p>📍 Brgy. San Isidro Sta Fe, Leyte</p>
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Jiehann C. Homeres | Personal Portfolio</p>
+</footer>
 
-                <p>💻 Information Technology Student</p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <p>
-            © 2026 Jiehann Homeres | Personal Portfolio
-        </p>
-
-    </footer>
-
-
-    <script src="script.js"></script>
-
+<script src="script.js"></script>
 </body>
-
 </html>
