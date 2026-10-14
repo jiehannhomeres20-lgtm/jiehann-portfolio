@@ -260,3 +260,36 @@ footer { background: #271b20; color: #d9c6c5; text-align: center; padding: 22px;
         width: 100%;
     }
 }
+
+/* ================================
+   FULL-PAGE SECTIONS ON NAV CLICK
+================================ */
+
+/* Home */
+section.hero {
+    min-height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 110px 0 60px !important;
+}
+
+/* About, Skills, Projects, Education, Contact */
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 110px 30px 60px;
+}
+
+.section .section-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Phone: less empty space */
+@media (max-width: 600px) {
+    .section {
+        padding: 90px 20px 50px;
+    }
+}
