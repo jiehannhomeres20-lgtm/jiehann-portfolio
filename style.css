@@ -340,3 +340,67 @@ section.hero {
         padding: 32px !important;
     }
 }
+
+/* ================================
+   EDUCATION - BIG AND CENTERED
+================================ */
+
+.education .section-title {
+    text-align: center !important;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.education-list .education-card {
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 45px 50px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    gap: 35px !important;
+    text-align: left !important;
+}
+
+.education-list .education-icon {
+    font-size: 70px !important;
+    flex-shrink: 0;
+}
+
+.education-list .education-card small {
+    font-size: 13px !important;
+}
+
+.education-list .education-card h3 {
+    font-size: 30px !important;
+    line-height: 1.25;
+    margin: 8px 0 10px !important;
+}
+
+.education-list .education-card p {
+    font-size: 17px !important;
+    text-align: left !important;
+}
+
+/* Phone */
+@media (max-width: 700px) {
+    .education-list .education-card {
+        flex-direction: column !important;
+        text-align: center !important;
+        padding: 32px 24px !important;
+    }
+
+    .education-list .education-card p {
+        text-align: center !important;
+    }
+
+    .education-list .education-card h3 {
+        font-size: 24px !important;
+    }
+}
