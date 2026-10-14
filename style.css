@@ -293,3 +293,50 @@ section.hero {
         padding: 90px 20px 50px;
     }
 }
+
+/* ================================
+   BIGGER SKILL BOXES
+================================ */
+
+.skills-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 30px !important;
+}
+
+.skills-grid .skill-card {
+    width: calc((100% - 30px) / 2) !important;
+    max-width: 560px !important;
+    min-height: 280px !important;
+    padding: 45px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.skills-grid .skill-card .num {
+    font-size: 20px !important;
+    margin-bottom: 14px !important;
+}
+
+.skills-grid .skill-card h3 {
+    font-size: 30px !important;
+    margin: 0 0 14px !important;
+}
+
+.skills-grid .skill-card p {
+    font-size: 17px !important;
+    line-height: 1.8 !important;
+    text-align: left !important;
+}
+
+/* Phone */
+@media (max-width: 700px) {
+    .skills-grid .skill-card {
+        width: 100% !important;
+        min-height: 220px !important;
+        padding: 32px !important;
+    }
+}
