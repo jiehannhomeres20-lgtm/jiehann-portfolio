@@ -232,3 +232,31 @@ footer { background: #271b20; color: #d9c6c5; text-align: center; padding: 22px;
     text-transform: uppercase;
     margin: 28px 0 14px;
 }
+
+/* SKILLS: 3 per row, last row centered */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-grid .skill-card {
+    width: calc((100% - 40px) / 3);
+}
+
+.skill-card p {
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .skills-grid .skill-card {
+        width: calc((100% - 20px) / 2);
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-grid .skill-card {
+        width: 100%;
+    }
+}
